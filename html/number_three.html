@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<div class="number_three">
+    <div class="number_three_header">
+        <p class=" fa fa-arrow-left arrow"></p>
+        <h3 class="h1_cen">选择号码及套餐</h3>
+
+    </div>
+
+    <div class="number_three_main">
+        <div class="scroller">
+            <div class="content">
+                <p class="watch"><input type="text" placeholder="1234 5678 9102 12345"><span> ? </span></p>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+<script src="../lib/require.js"></script>
+<script>
+    require.config({
+        baseUrl:"../js",
+        paths:{
+            "jquery":"../lib/jquery-2.1.1"
+        }
+
+    });
+    document.documentElement.style.fontSize=document.documentElement.clientWidth/7.23+"px";
+    require([]);
+</script>

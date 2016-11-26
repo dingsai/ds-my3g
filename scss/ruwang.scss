@@ -1,0 +1,193 @@
+
+.y_box,
+.y_xh {
+    width: 100%;
+    height: 100%;
+    font-size: 0.3rem;
+    overflow-x: hidden !important;
+    background: #FFFFFF;
+}
+header {
+    width: 100%;
+    height: 1rem;
+    background: #1A1A1A;
+    text-align: center;
+    line-height: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 30;
+    span {
+        width: 20%;
+        height: 1rem;
+        float: left;
+        img {
+            margin-left: 25%;
+            margin-top: 0.3rem;
+            width: 16px;
+            height: 16px;
+        }
+    }
+    h1 {
+        float: left;
+        width: 60%;
+        font-size: 0.45rem;
+        color: #fff;
+    }
+}
+.y_main {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    background: #EEEEEE;
+    position: relative;
+    overflow:hidden;
+}
+//ru wang
+.Progress_bar {
+    width: 100%;
+    height: 1.92rem;
+    background: #fff;
+    margin-top: 0.36rem;
+    margin-bottom: 0.17rem;
+    display: inline-flex;
+    text-align: center;
+    padding: 0 0.77rem;
+    position: relative;
+    div {
+        width: 25%;
+        margin-top: 0.24rem;
+        z-index: 22;
+        span {
+            display: inline-block;
+            width: 0.66rem;
+            height: 0.66rem;
+            line-height: 0.66rem;
+            text-align: center;
+            background: #EEEEEE;
+            margin: 0.1rem;
+            border-radius: 50%;
+            a {
+                color: #9C9C9C;
+                display: block;
+                border-radius: 50%;
+                border: 0;
+            }
+        }
+        p {
+            margin-top: 0.28rem;
+            color: #9c9c9c;
+        }
+    }
+    i {
+        position: absolute;
+        width: 60%;
+        height: 0.06rem;
+        background: #EEEEEE;
+        left: 1.4rem;
+        top: 0.65rem;
+        z-index: 0;
+        b {
+            display: flex;
+            height: 100%;
+            width: 66.6%;
+        }
+    }
+}
+.Order_details {
+    width: 100%;
+    background: #fff;
+    padding-top: 0.24rem;
+    padding-left: 0.68rem;
+    padding-right: 0.68rem;
+    h2 {
+        line-height: 0.65rem;
+    }
+    p {
+        line-height: 0.85rem;
+        span {}
+        b {
+            float: right;
+        }
+    }
+}
+.y_footer {
+    background: #EEEEEE;
+    padding: 0.35rem 0.68rem 0.5rem;
+    p {
+        color: #9C9C9C;
+        a {
+            border: 0;
+            border-bottom: 1px solid #CFCFCF;
+            color: #9C9C9C;
+        }
+    }
+}
+//zhifu
+.O_d_zhifu {
+    font-weight: bold;
+    border-top: 1px solid #EEEEEE;
+    b {
+        font-weight: bold;
+    }
+}
+//选择号码
+.y_xh_main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 0 0.48rem;
+    display: flex;
+    overflow-y: auto;
+    ul {
+        position: absolute;
+        width: 100%;
+        li {
+            width: 2.8rem;
+            height: 0.8rem;
+            float: left;
+            border: 1px solid #EEEEEE;
+            border-radius: 10px;
+            line-height: 0.8rem;
+            margin: 0.16rem;
+        }
+
+    }
+}
+//入网进度
+.wancheng {
+    background: #5E83E1 !important;
+    a{
+        color: #fff !important;
+    }
+}
+.wanchengP {
+    color: #5E83E1 !important;
+}
+.wanchengJD {
+    width: 0.86rem !important;
+    height: 0.86rem !important;
+    margin: 0 !important;
+    background: rgba(94,113,225,.2) !important;
+    a {
+        background: #5E83E1 !important;
+        margin: 0.1rem !important;
+        color: #fff !important;
+    }
+}
+//选定号码
+.y_xuanhao {
+    border: 1px solid #5E83E1 !important;
+    color: #5E83E1 !important;
+}
+.y_btn {
+    width: 80%;
+    margin: 1rem 10% 0.6rem;
+    border-radius: 50px;
+    line-height: 0.8rem;
+    color: #FFFFFF;
+    background: #5E83E1;
+    border: none;
+}

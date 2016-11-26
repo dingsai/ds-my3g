@@ -1,0 +1,94 @@
+
+.new3 {
+    width: 100%;
+    height: 100%;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+
+    overflow-y:auto;
+    header {
+        height: 2.5rem;
+        width: 100%;
+        background: #000000;
+        position: relative;
+        span {
+            font-size: 0.78rem;
+            color: #fff;
+            position: absolute;
+            top: 35%;
+            left: 5%;
+        }
+        h5 {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            width:100%;
+            line-height: 2.5rem;
+        }
+    }
+    main {
+        width:100%;
+        height:100%;
+        -webkit-box-flex:1;
+        margin-top: 20px;
+        padding:0 1.2rem;
+        background: #ffffff;
+        p {
+            font-size: 0.32rem;
+            color: #7f7f7f;
+            margin: 0.8rem 0;
+        }
+        .sc {
+            position: relative;
+            input{
+                position:absolute;
+                left:0;
+                top:0;
+                width:100%;
+                height:11.8rem;
+                opacity:0;
+            }
+            canvas{
+                width:0;
+                height:0;
+            }
+        }
+         button {
+            width: 100%;
+            height: 2.5rem;
+            background: #cccccc;
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            margin-top: 3rem;
+            font-size: 0.7rem;
+            color: #ffffff;
+            text-align: center;
+            line-height: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .active{
+            background:#5E83E1;
+        }
+        .bottom {
+             background: #ffffff;
+             padding: 0 30px 2rem;
+
+             h5 {
+                 font-size: 0.78rem;
+                 color: #9c9c9c;
+                 padding-bottom: 0.5rem;
+             }
+             ol {
+                 list-style: none;
+                 li {
+                     font-size: 0.32rem;
+                     color: #9c9c9c;
+                     line-height: 1rem;
+                     margin-top: 0.5rem;
+                 }
+             }
+         }
+    }
+
+}

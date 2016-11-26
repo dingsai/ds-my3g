@@ -1,0 +1,152 @@
+@import "../lib/reset.css";
+html,body,.number_one{
+  width: 100%;
+  height: 100%;
+}
+html{
+  font-size: 16px;
+}
+.number_one{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction:column;
+}
+.number_one_header{
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #000;
+  color:#fff;
+  position: relative;
+  .arrow{
+    position: absolute;
+    left:.2rem;
+    top:.3rem;
+
+  }
+  .h1_cen{
+    text-align: center;
+  }
+}
+.number_one_main{
+  width: 100%;
+  -webkit-flex:1;
+  overflow: hidden;
+  overflow-y: auto;
+  .content{
+    width:85%;
+    margin: 0 auto;
+
+    .watch{
+      width: 100%;
+      border: 1px solid #EEEEEE;
+      border-radius: 3px;
+      height: .7rem;
+      margin-top: .3rem;
+
+      input{
+        border: none;
+        height: .65rem;
+        margin-left: .36rem;
+      }
+      span{
+        width: 25px;
+        height:25px;
+        background: #FF9743;
+        border-radius: 25px;
+        display: inline-block;
+        text-align: center;
+        line-height: 25px;
+        color:#fff;
+        font-weight: bold;
+        float: right;
+        margin: .12rem .16rem 0 0;
+      }
+    }
+    .gray{
+      border: 1px solid #5E83E1;
+      b{
+        font-weight: normal;
+        padding-left: .3rem;
+      }
+      color:#5E83E1;
+      height:.65rem;
+      line-height: .65rem;
+      span{
+        background: #fff;
+        color:#5E83E1;
+      }
+      @extend .watch
+    }
+    .prestore{
+      border: none;
+      color:#5D5D5D;
+      margin-top: .35rem;
+      span{
+        width: 1.37rem;
+        height:.65rem;
+        line-height: .65rem;
+        background: #5E83E1;
+        color:#fff;
+        border-radius: 5px;
+      }
+      @extend .watch;
+    }
+    .monthly{
+      border:1px solid  #5E83E1;
+      margin-top: .23rem;
+      color:#5E83E1;
+      border-radius: 5px;
+      ul{
+        margin-left: .3rem;
+        li{
+          padding-top: .1rem;
+        }
+      }
+
+    }
+    .setmeal{
+      border: 1px solid #EEEEEE;
+      color:#A9A9A9;
+      border-radius: 5px;
+      @extend .monthly;
+    }
+    .one{
+      margin-top: .33rem;
+    }
+    .open{
+      span{
+        margin-top: .2rem;
+        display: inline-block;
+        width: 2.81rem;
+        height: .76rem;
+        line-height: .76rem;
+        text-align: center;
+        border: 1px solid #eeeeee;
+        border-radius: 4px;
+      }
+      .blue{
+        border: 1px solid #5E83E1;
+        color:#5E83E1;
+        margin-left: .3rem;
+      }
+    }
+
+  }
+}
+.number_one_footer{
+  width: 95%;
+  margin: 0 auto;
+  p{
+    width: 100%;
+    height: .81rem;
+    background: #5E83E1 ;
+    text-align: center;
+    line-height: .81rem;
+    border-radius: 15px;
+    margin-bottom: .35rem;
+    color:#fff;
+    font-size: .3rem;
+  }
+}

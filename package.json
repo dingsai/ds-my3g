@@ -1,0 +1,31 @@
+{
+  "name": "3g",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.6",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-requirejs": "^0.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingsai/ds-my3g.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dingsai/ds-my3g/issues"
+  },
+  "homepage": "https://github.com/dingsai/ds-my3g#readme",
+  "description": ""
+}
